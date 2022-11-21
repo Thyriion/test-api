@@ -1,5 +1,19 @@
 {
-    "posts": [{ "id": 1, "title": "json-server", "author": "typicode" }],
-    "comments": [{ "id": 1, "body": "some comment", "postId": 1 }],
-    "profile": { "name": "typicode" }
+    "feedback": [
+        {
+            "id": 1,
+            "rating": 10,
+            "text": "Absolut wundervoll!"
+        },
+        {
+            "id": 2,
+            "rating": 8,
+            "text": "Eigentlich keine Beschwerden"
+        },
+        {
+            "text": "Super Service, aber auf der Rückfahrt war Stau",
+            "rating": 3,
+            "id": 3
+        }
+    ]
 }
